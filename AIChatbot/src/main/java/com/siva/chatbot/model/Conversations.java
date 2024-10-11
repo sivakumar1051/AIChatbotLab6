@@ -14,6 +14,38 @@ import javax.persistence.Table;
 @Table(name="conversations")
 public class Conversations {
 	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getUserQuery() {
+		return userQuery;
+	}
+
+	public void setUserQuery(String userQuery) {
+		this.userQuery = userQuery;
+	}
+
+	public String getChatbotResponse() {
+		return chatbotResponse;
+	}
+
+	public void setChatbotResponse(String chatbotResponse) {
+		this.chatbotResponse = chatbotResponse;
+	}
+
+	public Timestamp getTimestamp() {
+		return timestamp;
+	}
+
+	public void setTimestamp(Timestamp timestamp) {
+		this.timestamp = timestamp;
+	}
+
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

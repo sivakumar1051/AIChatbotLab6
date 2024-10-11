@@ -18,5 +18,7 @@
 	<classpathentry kind="lib" path="C:/Users/Siva Kumar/Downloads/mysql-connector-java-8.0.28.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Siva Kumar/Downloads/hibernate-jpa-2.1-api-1.0.2.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Siva Kumar/Downloads/jakarta.persistence-api-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva Kumar/Downloads/jakarta.servlet.jsp.jstl-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siva Kumar/Downloads/jakarta.servlet.jsp.jstl-api-3.0.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
