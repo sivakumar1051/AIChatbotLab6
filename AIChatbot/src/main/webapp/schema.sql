@@ -1,0 +1,11 @@
+# DATABASE CREATION 
+CREATE DATABASE chatbot_db;
+#DATABASE USING
+USE chatbot_db;
+#TABLE CREATIONS
+CREATE TABLE conversations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_query VARCHAR(255),
+    chatbot_response VARCHAR(255),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
